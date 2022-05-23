@@ -83,6 +83,17 @@ table.table td .add {
     display: none;
 }
 h2{
-    background-color: aqua;
-    width: 30%
+    color: #27C46B;
+    font-size: medium;
+}
+table.table tr:hover{
+    background-color: #27C46B;
+}
+table.table tr:hover td>a{
+   box-shadow: none;
+}
+thead{
+    background-color: black;
+    color: #F5F7FA;
+
 }

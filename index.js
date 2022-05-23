@@ -24,16 +24,7 @@ app.use('/script', express.static(path.resolve(__dirname, 'assets/js')))
 app.use('/img', express.static(path.resolve(__dirname, 'assets/img')))
 
 
-app.use('/index', function(req,res){
-
-    res.render('index')
-  
-})
-
-app.use('/data', function(req,res){
-    res.render('data')
-})
-
+app.use('/',require('./server/routes/router'))
 
 
 app.listen(port, function(req, res){
