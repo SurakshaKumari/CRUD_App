@@ -9,7 +9,7 @@
 6: add body parse "yarn add body-parser" it allows us to serialize the data
 7: add dotenv "yarn add dotenv" it allows us to separate secret from source
 8: add mongose "yarn add mongose" it is used for mongodb
-9: add axios "yarn add axios" this library make it easy to make request in application
+9: add axios "yarn add axios" this library make it easy to make request in application.
 
 
 
